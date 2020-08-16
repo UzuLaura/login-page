@@ -1,1 +1,151 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap);*{margin:0;padding:0;box-sizing:border-box;font-family:Nunito,sans-serif}main{background:#331135;height:100vh}h1,h2{color:#fff}.d-flex-center{display:flex;justify-content:center;align-items:center;height:100%}.welcome-block{color:#fff;text-align:center;padding:0 10px}.welcome-block h2{font-size:5rem}.welcome-block h3{font-size:2rem}.welcome-block form{margin-top:20px}@media all and (max-width:600px){html{font-size:10px}.welcome-block h3{font-size:5vw}}.auth-block{display:inline-block;width:500px;box-shadow:0 0 300px 14px #744e77;border-radius:.2rem;margin:10px}.auth-block-header{color:#fff;border-top-left-radius:.2rem;border-top-right-radius:.2rem;border:1px solid #845b88;border-bottom:none;width:100%;background:#734f77;background:linear-gradient(180deg,#734f77 0,#614263 41%,#614263 100%)}.auth-block-header h2{padding:20px 25px;font-size:1rem}.auth-block-body{width:100%;background-color:#fff;border-bottom-left-radius:.2rem;border-bottom-right-radius:.2rem;padding:20px 0;height:250px}.auth-block-body form{width:98%;height:100%;margin:0 auto;display:flex;flex-direction:column;justify-content:space-around;align-items:center}.auth-block-body .input-group{width:90%;padding:10px;background-color:#f2f2f2;border:1px solid #ececec;border-radius:.2rem;display:flex;justify-content:space-between}.input-group-focused{border:1px solid #744e77;box-shadow:0 0 4px 1px #744e77}.input-group input{border:none;width:90%;background-color:inherit}.input-group input::placeholder,.input-group label i{color:#a7a7a7}.input-group input:focus{outline:0}.input-group input,.input-group label i{padding:5px 10px}.error-block{color:red;width:90%}.button{text-decoration:none;border:none;border-radius:.2rem;color:#fff;padding:10px 25px;background:#734f77;background:linear-gradient(180deg,#734f77 0,#614263 41%,#614263 100%)}.button:hover{background:#633e66;cursor:pointer}.btn-group{width:90%}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    background: rgb(51, 17, 53);
+    height: 100vh;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.welcome-block {
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.welcome-block h2 {
+    font-size: 5rem;
+}
+
+.welcome-block h3 {
+    font-size: 2rem;
+}
+
+.welcome-block form {
+    margin-top: 20px;
+}
+
+@media all and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+
+    .welcome-block h3 {
+        font-size: 5vw;
+    }
+}
+.auth-block {
+    display: inline-block;
+    width: 500px;
+    box-shadow: 0 0 300px 14px #744E77;
+    border-radius: .2rem;
+    margin: 10px;
+}
+
+.auth-block-header {
+    color: white;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    border: 1px solid rgb(132, 91, 136);
+    border-bottom: none;
+    width: 100%;
+    background: rgb(115,79,119);
+    background: linear-gradient(180deg, rgba(115,79,119,1) 0%, rgba(97,66,99,1) 41%, rgba(97,66,99,1) 100%);}
+
+.auth-block-header h2 {
+    padding: 20px 25px;
+    font-size: 1rem
+}
+
+.auth-block-body {
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    padding: 20px 0;
+    height: 250px;
+}
+
+.auth-block-body form {
+    width: 98%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.auth-block-body .input-group {
+    width: 90%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ececec;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group-focused {
+    border: 1px solid #744E77;
+    box-shadow: 0 0 4px 1px #744E77;
+}
+
+.input-group input {
+    border: none;
+    width: 90%;
+    background-color: inherit;
+}
+
+.input-group label i,
+.input-group input::placeholder {
+    color: #a7a7a7;
+}
+
+.input-group input:focus {
+    outline: none;
+}
+
+.input-group label i,
+.input-group input {
+    padding: 5px 10px;
+}
+
+.error-block {
+    color: red;
+    width: 90%;
+}
+.button {
+    text-decoration: none;
+    border: none;
+    border-radius: .2rem;
+    color: white;
+    padding: 10px 25px;
+    background: rgb(115,79,119);
+    background: linear-gradient(180deg, rgba(115,79,119,1) 0%, rgba(97,66,99,1) 41%, rgba(97,66,99,1) 100%);
+}
+
+.button:hover {
+    background: #633e66;
+    cursor: pointer;
+}
+
+.btn-group {
+    width: 90%;
+}

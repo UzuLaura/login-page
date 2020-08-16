@@ -8,7 +8,7 @@
             <input v-model="username.value"
                    name="username"
                    id="username"
-                   type="text"
+                   type="email"
                    placeholder="Username">
             <label for="username"><i class="fas fa-user"></i></label>
         </div>
@@ -27,7 +27,7 @@
             <input v-model="password.value"
                    name="password"
                    id="password"
-                   type="text"
+                   type="password"
                    placeholder="Password">
             <label for="password"><i class="fas fa-lock"></i></label>
         </div>
