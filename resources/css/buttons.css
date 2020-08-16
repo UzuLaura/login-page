@@ -1,0 +1,18 @@
+.button {
+    text-decoration: none;
+    border: none;
+    border-radius: .2rem;
+    color: white;
+    padding: 10px 25px;
+    background: rgb(115,79,119);
+    background: linear-gradient(180deg, rgba(115,79,119,1) 0%, rgba(97,66,99,1) 41%, rgba(97,66,99,1) 100%);
+}
+
+.button:hover {
+    background: #633e66;
+    cursor: pointer;
+}
+
+.btn-group {
+    width: 90%;
+}
